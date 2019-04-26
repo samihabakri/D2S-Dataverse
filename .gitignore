@@ -1,7 +1,7 @@
 #d2s  ignore group
 Dockerfile
-
-
+CONTRIBUTING.md
+dataverse.iml
 
 nb-configuration.xml
 target
