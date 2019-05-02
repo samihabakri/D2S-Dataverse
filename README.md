@@ -20,7 +20,8 @@ Now you can go to [localhost:8085](http://localhost:8085) and start your instanc
 ### Development Environment
 Want to configure this installed and running instance? follow the next steps to install the preferred IDE and to deploy new instances according to your configuration:
 * Install intellij Ultimate on your environment (you can use your students' email to get a license for one year)
-* Import new project to intellij by importing `~/TUWien/Dataverse-docker/dataverse/ directory`
+* Clone this repository to `~/TUWien/Dataverse-docker/` directory, which will generate new folder named `D2S-Dataverse`
+* Import new project to intellij by importing `D2S-Dataverse` directory
 * Import maven dependencies from the pom.xml file then generate sources
 * Edit and code whatever you need, then execute install command in the Maven command line
 * Copy the *.war file to `~/TUWien/dataverse-docker/dataversedock/dv/deps/`
