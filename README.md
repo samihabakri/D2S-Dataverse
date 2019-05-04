@@ -7,8 +7,10 @@ In order to work with this repository, you will have to follow the next prerequi
 * Linux based operating system (Ubuntu)
 * Check if Java 8.0 is installed to the environment, if not use this command:
 `sudo apt install openjdk-8-jdk`
-* Clone dataverse-docker to `~/TUWien` directory using this command: `git clone https://github.com/samihabakri/D2S-Dataverse.git` 
-> stick to the directory preferences if you want to benefit from.bash file that I will add  add to facilitate build and deployment
+* Start by cloning dataverse-docker (from IQSS) to `~/TUWien` directory using this command: `https://github.com/IQSS/dataverse-docker.git`
+* Then, execute the `initial.bash` file from the new cloned repository.
+* Clone this repository using this command `https://github.com/samihabakri/D2S-Dataverse.git` and rename the cloned folder to be `dataverse`. 
+> stick to the directory preferences if you want to benefit from `.bash` file that I will add to facilitate build and deployment, and to get the best of below instructions
 * Install Docker using this command: `sudo apt install docker.io`
 * Install Docker-Compose (follow the steps in [this article](https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/) to do so
 * Go to the cloned directory (`~/TUWien/Dataverse-docker`) and perform the next commands to build and start the dataverse instance:
