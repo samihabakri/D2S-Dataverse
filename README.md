@@ -9,7 +9,7 @@ In order to work with this repository, you will have to follow the next prerequi
 `sudo apt install openjdk-8-jdk`
 * Start by cloning dataverse-docker (from IQSS) to `~/TUWien` directory using this command: `https://github.com/IQSS/dataverse-docker.git`
 * Then, execute the `initial.bash` file from the new cloned repository.
-* Clone this repository using this command `https://github.com/samihabakri/D2S-Dataverse.git` and rename the cloned folder to be `dataverse`. 
+
 > stick to the directory preferences if you want to benefit from `.bash` file that I will add to facilitate build and deployment, and to get the best of below instructions
 * Install Docker using this command: `sudo apt install docker.io`
 * Install Docker-Compose (follow the steps in [this article](https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/) to do so
@@ -22,8 +22,8 @@ Now you can go to [localhost:8085](http://localhost:8085) and start your instanc
 ### Development Environment
 Want to configure this installed and running instance? follow the next steps to install the preferred IDE and to deploy new instances according to your configuration:
 * Install intellij Ultimate on your environment (you can use your students' email to get a license for one year)
-* Clone this repository to `~/TUWien/Dataverse-docker/` directory, which will generate new folder named `D2S-Dataverse`
-* Import new project to intellij by importing `D2S-Dataverse` directory
+* Clone this repository to `~/TUWien/Dataverse-docker/` directory using this command `https://github.com/samihabakri/D2S-Dataverse.git` , which will generate new folder named `D2S-Dataverse` rename the cloned folder to be `dataverse`. 
+* Import new project to intellij by importing `dataverse` directory
 * Import maven dependencies from the pom.xml file then generate sources
 * Edit and code whatever you need, then execute install command in the Maven command line
 * Copy the *.war file to `~/TUWien/dataverse-docker/dataversedock/dv/deps/`
