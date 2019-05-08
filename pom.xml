@@ -601,6 +601,7 @@
         </dependency>
     </dependencies>
     <build>
+        <finalName>dataverse</finalName>
         <!--        <testResources>
             <testResource>
                 <directory>${project.basedir}/src/main/resources</directory>
@@ -708,8 +709,8 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
                 <configuration>
-                    <destfile>${basedir}/target/coverage-reports/jacoco-unit.exec</destfile>
-                    <datafile>${basedir}/target/coverage-reports/jacoco-unit.exec</datafile>
+<!--                    <destfile>${basedir}/target/coverage-reports/jacoco-unit.exec</destfile>-->
+<!--                    <datafile>${basedir}/target/coverage-reports/jacoco-unit.exec</datafile>-->
                 </configuration>
                 <executions>
                     <execution>
