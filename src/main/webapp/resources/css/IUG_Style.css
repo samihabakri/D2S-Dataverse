@@ -1,0 +1,65 @@
+
+.bg-dataverse {
+    background:#42bdc5;
+}
+.bg-dataset {
+    background: #b73e35;
+}
+.bg-file {
+    background:#F5F5F5;
+}
+
+#navbarFixed .navbar-brand {
+    color: #D0D0D0;
+}
+#navbarFixed .icon-dataverse {
+    color: #D0D0D0;
+}
+.text-dataverse {
+    color: #42bdc5;
+}
+.text-dataset {
+    color:#31708F;
+}
+.text-file {
+    color:#F5F5F5;
+}
+
+a:hover {
+    color: #D05253;
+}
+
+#navbarFixed {
+    color: #363636;
+}
+/* structure.css */
+.ui-widget-content a {
+    color: #337AB7;
+}
+.ui-widget-content a:hover, .ui-widget-content a:focus {
+    color: #23527C;
+}
+
+.navbar-default {
+    height: 15px;
+
+    background-image:
+            linear-gradient(to bottom,#363636,#363636 100%);
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+#navbarFixed form.navbar-form-link a.ui-commandlink, #navbarFixed ul.navbar-nav li.dropdown span.dropdown-toggle {
+    display: block;
+    padding: 15px;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+     color:#D05253 ;
+ }
+#navbarFixed form.navbar-form-link a.ui-commandlink:hover, #navbarFixed ul.navbar-nav li.dropdown span.dropdown-toggle {
+    color:#D05253 ;
+
+}
