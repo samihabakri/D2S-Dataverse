@@ -4,7 +4,7 @@
 	<title></title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ajv/6.5.3/ajv.min.js"></script>
 	<script src="schema.js"></script>
-	<script src="data.js"></script>
+	<script src="jsonfile.js"></script>
 
 </head>
 <body>
