@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+    width: 50%;
+    margin: 15%;
+    background-image: url("world.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+label{
+    font-family: "American Typewriter";
+    font-size: large;
+    color: #EC2A3C;
+}
