@@ -25,8 +25,8 @@
      function validate_json()
      {
         var jsonf =document.getElementById("dataID").value ;
-        var maDMP = JSON.parse(jsonf);
-        var schema = JSON.parse(schemaJSON);
+        var maDMP = JSON.parse(jsonf.toString());
+        var schema = JSON.parse(schemaJSON.toString());
 
 
   		var ajv = new Ajv(); // options can be passed, e.g. {allErrors: true}
