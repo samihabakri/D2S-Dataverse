@@ -1,0 +1,194 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "DMP"
+  ],
+  "properties": {
+    "DMP": {
+      "$id": "#/properties/DMP",
+      "type": "object",
+      "title": "The Dmp Schema",
+      "required": [
+        "title",
+        "language",
+        "created",
+        "modified",
+        "ethical_issues_exist",
+        "contact",
+        "dataset"
+      ],
+      "properties": {
+        "title": {
+          "$id": "#/properties/DMP/properties/title",
+          "type": "string",
+          "title": "The Title Schema",
+          "default": "",
+          "examples": [
+            "Minimal DMP"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "language": {
+          "$id": "#/properties/DMP/properties/language",
+          "type": "string",
+          "title": "The Language Schema",
+          "default": "",
+          "examples": [
+            "en"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "created": {
+          "$id": "#/properties/DMP/properties/created",
+          "type": "string",
+          "title": "The Created Schema",
+          "default": "",
+          "examples": [
+            "2018-07-23T10:10:23.6"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "modified": {
+          "$id": "#/properties/DMP/properties/modified",
+          "type": "string",
+          "title": "The Modified Schema",
+          "default": "",
+          "examples": [
+            "2019-02-06T10:10:23.6"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "ethical_issues_exist": {
+          "$id": "#/properties/DMP/properties/ethical_issues_exist",
+          "type": "string",
+          "title": "The Ethical_issues_exist Schema",
+          "default": "",
+          "examples": [
+            "unknown"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "contact": {
+          "$id": "#/properties/DMP/properties/contact",
+          "type": "object",
+          "title": "The Contact Schema",
+          "required": [
+            "mail",
+            "name",
+            "contact_id"
+          ],
+          "properties": {
+            "mail": {
+              "$id": "#/properties/DMP/properties/contact/properties/mail",
+              "type": "string",
+              "title": "The Mail Schema",
+              "default": "",
+              "examples": [
+                "cc@example.com"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "name": {
+              "$id": "#/properties/DMP/properties/contact/properties/name",
+              "type": "string",
+              "title": "The Name Schema",
+              "default": "",
+              "examples": [
+                "Charlie Chaplin"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "contact_id": {
+              "$id": "#/properties/DMP/properties/contact/properties/contact_id",
+              "type": "object",
+              "title": "The Contact_id Schema",
+              "required": [
+                "contact_id",
+                "contact_id_type"
+              ],
+              "properties": {
+                "contact_id": {
+                  "$id": "#/properties/DMP/properties/contact/properties/contact_id/properties/contact_id",
+                  "type": "string",
+                  "title": "The Contact_id Schema",
+                  "default": "",
+                  "examples": [
+                    "http://orcid.org/0000-0000-0000-0000"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "contact_id_type": {
+                  "$id": "#/properties/DMP/properties/contact/properties/contact_id/properties/contact_id_type",
+                  "type": "string",
+                  "title": "The Contact_id_type Schema",
+                  "default": "",
+                  "examples": [
+                    "HTTP-ORCID"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          }
+        },
+        "dataset": {
+          "$id": "#/properties/DMP/properties/dataset",
+          "type": "object",
+          "title": "The Dataset Schema",
+          "required": [
+            "title",
+            "type",
+            "personalData",
+            "sensitiveData"
+          ],
+          "properties": {
+            "title": {
+              "$id": "#/properties/DMP/properties/dataset/properties/title",
+              "type": "string",
+              "title": "The Title Schema",
+              "default": "",
+              "examples": [
+                "Placeholder dataset"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "type": {
+              "$id": "#/properties/DMP/properties/dataset/properties/type",
+              "type": "string",
+              "title": "The Type Schema",
+              "default": "",
+              "examples": [
+                "(value from dictionary)"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "personalData": {
+              "$id": "#/properties/DMP/properties/dataset/properties/personalData",
+              "type": "string",
+              "title": "The Personaldata Schema",
+              "default": "",
+              "examples": [
+                "unknown"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "sensitiveData": {
+              "$id": "#/properties/DMP/properties/dataset/properties/sensitiveData",
+              "type": "string",
+              "title": "The Sensitivedata Schema",
+              "default": "",
+              "examples": [
+                "unknown"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  }
+}
