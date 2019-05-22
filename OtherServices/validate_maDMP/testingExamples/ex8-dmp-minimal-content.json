@@ -1,5 +1,5 @@
 {
-  "DMP": {
+  "dmp": {
     "title": "Minimal DMP",
     "language": "en",
     "created": "2018-07-23T10:10:23.6",
@@ -13,11 +13,13 @@
         "contact_id_type": "HTTP-ORCID"
       }
     },
-    "dataset": {
-      "title": "Placeholder dataset",
-      "type": "(value from dictionary)",
-      "personalData": "unknown",
-      "sensitiveData": "unknown"
-    }
+    "dataset": [
+      {
+        "title": "Placeholder dataset",
+        "type": "(value from dictionary)",
+        "personal_data": "unknown",
+        "sensitive_data": "unknown"
+      }
+    ]
   }
 }
