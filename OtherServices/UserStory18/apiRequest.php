@@ -5,22 +5,17 @@ if (isset($_POST['dataverse'])) {
     $url = "https://demo.dataverse.org/api/dataverses/" . $_POST['identifier'] . "?key=$apiKey";
 
     $data = array (
-        'name' => 'Scientific Research',
-        'alias' => '12345',
+        'name' => $_POST["dataverse"],
+        'alias' => $_POST["identifier"],
         'dataverseContacts' =>
             array (
                 0 =>
                     array (
-                        'contactEmail' => 'pi@example.edu',
-                    ),
-                1 =>
-                    array (
-                        'contactEmail' => 'student@example.edu',
-                    ),
-            ),
-        'affiliation' => 'Scientific Research University',
-        'description' => 'We do all the science.',
-        'dataverseType' => 'LABORATORY',
+                        'contactEmail' =>$_POST["email"]
+                    )
+                            ),
+
+        'dataverseType' => $_POST["dataverseType"]
     );
     $payload = json_encode($data);
 
