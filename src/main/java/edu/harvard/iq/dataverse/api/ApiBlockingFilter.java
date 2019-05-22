@@ -123,7 +123,8 @@ public class ApiBlockingFilter implements javax.servlet.Filter {
         updateBlockedPoints();
         policies.put("allow", ALLOW);
         policies.put("drop", DROP);
-        policies.put("localhost-only", LOCAL_HOST_ONLY);
+
+//        policies.put("localhost-only", LOCAL_HOST_ONLY);
         policies.put("unblock-key", unblockKey);
     }
 
