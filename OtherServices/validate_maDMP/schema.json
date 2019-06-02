@@ -83,9 +83,8 @@
           "type": "string",
           "title": "The Modified Schema",
           "default": null,
-          "examples": [
-            "2019-04-10T00:00:00"
-          ],
+          "example": "2019-04-10T00:00:00"
+        ,
           "format": "date-time"
         },
         "ethical_issues_exist": {
