@@ -1,4 +1,4 @@
-=============
+branding=============
 Configuration
 =============
 
@@ -501,6 +501,8 @@ Dataverse allows you to replace the default Dataverse icon and name branding in 
 The custom logo image file is expected to be small enough to fit comfortably in the navbar, no more than 50 pixels in height and 160 pixels in width. Create a ``navbar`` directory in your Glassfish ``logos`` directory and place your custom logo there. By Glassfish default, your logo image file will be located at ``/usr/local/glassfish4/glassfish/domains/domain1/docroot/logos/navbar/logo.png``.
 
 Once you have the location of your custom logo image file, run this curl command to add it to your settings:
+
+
 
 ``curl -X PUT -d '/logos/navbar/logo.png' http://localhost:8080/api/admin/settings/:LogoCustomizationFile``
 
