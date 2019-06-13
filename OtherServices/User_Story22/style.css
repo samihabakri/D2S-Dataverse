@@ -1,0 +1,155 @@
+body {
+    color: #3f312e;
+    background: #bbbab6d4 ;
+    font: 14px Helvetica, Arial, SansSerif;
+}
+
+a {
+    color: #4f4f4f;
+}
+
+#header {
+    width: 960px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+#header h1{
+        padding-top: 31px;
+
+}
+
+#navigation {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navigation ul li {
+    display: inline;
+    margin-right: 3px;
+}
+
+#navigation ul li a {
+    background: #fbe49b;
+    text-decoration: none;
+    padding: 10px 10px 6px 10px;
+    text-transform: uppercase;
+
+    background-color: #53777a;
+    color: #fff;
+}
+
+#navigation ul li.current_page_item a,
+#navigation ul li a:hover {
+    color: #3f312e;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    background: url('images/navPng.png') repeat-x top left;
+}
+
+#container {
+    overflow: auto;
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    border: 10px solid #d1d1ce;
+}
+
+#content {
+    width: 940px;
+    min-height: 400px;
+    margin: 10px;
+    background: #fff
+}
+
+#contentLeft {
+    width: 580px;
+    float: left;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+#contentLeft h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#sidebar {
+    width: 280px;
+    float: left;
+    box-shadow: 1 11 1;
+    width: 280px;
+    box-shadow: 2px 2px 6px #000000;
+    float: left;
+    border: 2px solid #c6c5c2;
+    padding: 18px;
+}
+
+.sidebar-element {
+    overflow: auto;
+    margin-top: 15px
+}
+
+#sidebar h3 {
+    color: #fff;
+    background: #53777a;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin: 0 0 7px 0;
+}
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer ul {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#footer ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#footer ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#header a img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
