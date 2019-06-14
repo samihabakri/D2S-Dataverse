@@ -59,12 +59,14 @@ if(isset($_POST['show']) || $_SESSION['jsonUrl']!="") {
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="this is dataset container">
+    <meta name="keywords" content="json,json schema,dataset,DMP,maDMP">
     <title>json object display</title>
     <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
 <div id="header">
-    <a href="main.php"><img src="images/tuwienLogo.png" alt="logo"></a><h1>JSON Object Displayer</h1>
+    <a href="main.php"><img src="images/tuwienLogo.png" alt="web site logo"></a><h1>JSON Object Displayer</h1>
 </div><!-- HEADER -->
 <div id="navigation">
     <ul>

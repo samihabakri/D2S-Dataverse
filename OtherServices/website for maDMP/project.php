@@ -47,7 +47,7 @@ $projectValue = looping($json['dmp']['project']);
 </head>
 <body>
 <div id="header">
-    <a href="main.php"><img src="images/tuwienLogo.png" alt="logo"></a><h1>JSON Object Displayer</h1>
+    <a href="main.php"><img src="images/tuwienLogo.png" alt="web site logo"></a><h1>JSON Object Displayer</h1>
 </div><!-- HEADER -->
 <div id="navigation">
     <ul>
